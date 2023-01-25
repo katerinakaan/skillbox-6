@@ -62,7 +62,7 @@ h1, h2, h3, p, ul {
   padding-bottom: 20px;
   color: #333;
   font-family: Muller, sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
 }
@@ -541,7 +541,7 @@ transform: rotate(-45deg);
   background-color: #fff;
   border-radius: 15px;
   padding: 0;
-  font-style: 0;
+  font-size: 0;
   outline: none;
 }
 
@@ -557,7 +557,7 @@ transform: rotate(-45deg);
   display: block;
   flex-direction: column;
   justify-content: left; 
-  align-items: left;
+  align-items: center;
   padding: 32px 45px 45px;
   font-size: 0;
 }
@@ -566,7 +566,7 @@ transform: rotate(-45deg);
   list-style: none;
   margin: 0;
   padding: 0;
-  font-style: 0;
+  font-size: 0;
 }
 
 .accommodation-item-text {
@@ -594,7 +594,7 @@ transform: rotate(-45deg);
 
 .accommodation-item-btn {
   display: inline-block;
-  align-items: left;
+  align-items: center;
   text-align: left;
   cursor: pointer;
   margin: 0 auto;
